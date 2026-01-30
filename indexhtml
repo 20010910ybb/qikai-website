@@ -2,39 +2,75 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>昭通旗恺工程建设劳务有限公司</title>
     <style>
-        body { font-family: "Microsoft YaHei"; max-width: 1200px; margin: 0 auto; padding: 20px; }
-        .header { text-align: center; border-bottom: 1px solid #eee; padding-bottom: 20px; }
-        .section { margin: 30px 0; }
-        .contact { background: #f8f8f8; padding: 20px; border-radius: 8px; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: "Microsoft YaHei", sans-serif; line-height: 1.7; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #f5f7fa; }
+        .header { text-align: center; padding: 40px 0; border-bottom: 2px solid #2a5caa; margin-bottom: 50px; background-color: #fff; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,0.08); }
+        .header h1 { color: #2a5caa; font-size: 2.2rem; margin-bottom: 12px; }
+        .header p { color: #666; font-size: 1.2rem; }
+        .section { background-color: #fff; padding: 35px; margin: 35px 0; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.05); }
+        .section h2 { color: #2a5caa; margin-bottom: 25px; font-size: 1.6rem; border-left: 5px solid #3498db; padding-left: 12px; }
+        .service-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 22px; margin-top: 25px; }
+        .service-item { padding: 20px; background-color: #f8f9fa; border-radius: 8px; text-align: center; transition: all 0.3s ease; border: 1px solid #eee; }
+        .service-item:hover { transform: translateY(-3px); box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .contact { background-color: #f8f9fa; padding: 35px; border-radius: 10px; text-align: center; border: 1px solid #eee; }
+        .contact p { margin: 12px 0; font-size: 1.15rem; }
+        .contact a { color: #2a5caa; text-decoration: none; font-weight: 500; }
+        .contact a:hover { text-decoration: underline; }
+        .case-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 25px; }
+        .case-item { padding: 20px; background-color: #f8f9fa; border-radius: 8px; border: 1px solid #eee; }
+        .case-item h3 { color: #2a5caa; margin-bottom: 10px; }
+        @media (max-width: 768px) {
+            body { padding: 15px; }
+            .header h1 { font-size: 1.8rem; }
+            .section { padding: 25px; }
+        }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>昭通旗恺工程建设劳务有限公司</h1>
-        <p>专业建筑劳务分包 · 工程施工 · 装饰装修工程    市政工程施工</p >
+        <p>专业建筑劳务分包 · 工程施工 · 装饰装修 · 园林绿化</p >
     </div>
+
     <div class="section">
         <h2>关于我们</h2>
-        <p>昭通旗恺工程建设劳务有限公司成立于2025年，注册资本5000万元，地址位于云南省昭通市永善县溪洛渡街道溪洛渡社区永溪四组。我们专注于建筑劳务分包、建设工程施工、装饰装修、园林绿化等业务，具备专业的施工团队与丰富的项目经验。</p >
+        <p>昭通旗恺工程建设劳务有限公司成立于2025年，注册资本XXX万元，地址位于云南省昭通市永善县溪洛渡街道溪洛渡社区永溪四组。我们专注于建筑劳务分包、建设工程施工、装饰装修、园林绿化等业务，具备专业的施工团队与丰富的项目经验，致力于为客户提供高效、优质的工程劳务服务。</p >
     </div>
+
     <div class="section">
         <h2>服务范围</h2>
-        <ul>
-            <li>建筑劳务分包</li>
-            <li>建设工程施工</li>
-            <li>装饰装修工程</li>
-            <li>园林绿化工程</li>
-            <li>电气安装工程</li>
-            <li>市政工程施工</li>
-            <li>工程管理服务</li>
-        </ul>
+        <div class="service-list">
+            <div class="service-item">建筑劳务分包</div>
+            <div class="service-item">建设工程施工</div>
+            <div class="service-item">装饰装修工程</div>
+            <div class="service-item">园林绿化工程</div>
+            <div class="service-item">电气安装工程</div>
+            <div class="service-item">工程管理服务</div>
+        </div>
     </div>
-    <div class="section contact">
+
+    <div class="section">
+        <h2>项目案例</h2>
+        <div class="case-list">
+            <div class="case-item">
+                <h3>XX小区劳务分包项目</h3>
+                <p>负责小区主体施工劳务供应，团队规模50人，工期6个月，顺利交付。</p >
+            </div>
+            <div class="case-item">
+                <h3>XX市政绿化工程</h3>
+                <p>完成市政道路绿化种植与养护，绿化面积约2000㎡，获得甲方好评。</p >
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
         <h2>联系我们</h2>
-        <p>📞 联系电话：15368389795</p >
+        <p>📞 联系电话：<a href=" ">13588887795</a ></p >
         <p>📍 公司地址：云南省昭通市永善县溪洛渡街道溪洛渡社区永溪四组</p >
+        <p>📧 电子邮箱：<a href="mailto:contact@qikaigongcheng.com">contact@qikaigongcheng.com</a ></p >
     </div>
 </body>
 </html>
