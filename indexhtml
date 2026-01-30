@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>昭通旗恺工程建设劳务有限公司</title>
+    <style>
+        body { font-family: "Microsoft YaHei"; max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .header { text-align: center; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .section { margin: 30px 0; }
+        .contact { background: #f8f8f8; padding: 20px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>昭通旗恺工程建设劳务有限公司</h1>
+        <p>专业建筑劳务分包 · 工程施工 · 装饰装修工程    市政工程施工</p >
+    </div>
+    <div class="section">
+        <h2>关于我们</h2>
+        <p>昭通旗恺工程建设劳务有限公司成立于2025年，注册资本5000万元，地址位于云南省昭通市永善县溪洛渡街道溪洛渡社区永溪四组。我们专注于建筑劳务分包、建设工程施工、装饰装修、园林绿化等业务，具备专业的施工团队与丰富的项目经验。</p >
+    </div>
+    <div class="section">
+        <h2>服务范围</h2>
+        <ul>
+            <li>建筑劳务分包</li>
+            <li>建设工程施工</li>
+            <li>装饰装修工程</li>
+            <li>园林绿化工程</li>
+            <li>电气安装工程</li>
+            <li>市政工程施工</li>
+            <li>工程管理服务</li>
+        </ul>
+    </div>
+    <div class="section contact">
+        <h2>联系我们</h2>
+        <p>📞 联系电话：15368389795</p >
+        <p>📍 公司地址：云南省昭通市永善县溪洛渡街道溪洛渡社区永溪四组</p >
+    </div>
+</body>
+</html>
